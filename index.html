@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Извини, Настя</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+        }
+
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .heart {
+            color: #ff6f61;
+            font-size: 2rem;
+            animation: bounce 1.5s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1rem;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ff3b2e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Извини, Настя</h1>
+        <p>
+            Прости меня, пожалуйста, за всё, что произошло. Я не хотел тебя обидеть, 
+            и мне действительно жаль. Ты самая важная для меня, и я готов сделать всё, чтобы снова увидеть твою улыбку.
+        </p>
+        <p class="heart">❤️</p>
+        <a href="#" class="button">Прости меня</a>
+    </div>
+
+</body>
+</html>
+
